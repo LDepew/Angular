@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'hello-world-angular';
+  title = 'hello-world-angular from Lance a future programmer';
+  name: string = "Lance";
+  myText: string = "Default myText string";
+
+  changeName(): void {
+    this.name = "Lancelot";
+  }
 }
